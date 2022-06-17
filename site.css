@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    padding: 10px 100px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #c0c0bf;
+    ;
+}
+.logo{
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.navigation a{
+    color: rgb(0, 0, 0);
+    font-size: 1,6em;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 40px;
+}
+.navigation a:hover {
+    color: whitesmoke;
+}
+section {
+    padding: 100px 100px;
+    
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #c0c0bf;
+}
+.main h1 {
+    font-size: 2.1em;
+    font-weight: 430;
+    text-transform: uppercase;
+}
+.main h1 span {
+    color: rgb(0, 0, 0);
+    font-size: 2.3em;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+.main h2 {
+    color: #000000;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.main img {
+    padding-left: 100px;
+    width: 550px;
+    height: 500px;
+}
+
+.main-botten {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 1em 2.5em;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    transition: 0,8s ease ;
+    border-style: solid;
+    border-color: black;
+    
+}
+
+.main-botten:hover {
+
+    background-color: #c0c0bf;
+    border-style: solid ;
+    border-color: black;
+    color: black;
+}
+.contact_us {
+    color: #000000;
+    font-size: 1.5em;
+    padding-left: 100px;
+}
+.contact_us:hover {
+    color: white;
+
+}
+
+
+.base {
+   margin: -50px;
+}
+.service-section {
+    background-color: #000000;
+}
+
+.service {
+    display: flex;
+    font-size: 3em;
+    font-weight:700;
+    padding: 50px;
+    color: rgb(143, 71, 71);
+    justify-content: center;
+    margin-bottom: 150px;
+    height: 60px;
+}
+.case-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.case {
+    background-color: white;
+    width: 24em;
+    box-shadow: 0 5px 20px rgba(1, 1, 1, 30%);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 25px;
+    transition: 0.6s ease;
+    
+}
+.icon {
+    color: blue;
+    font-size: 8em;
+    font-weight: 900;
+    text-align: center;
+}
+.title {
+    color: #000000;
+    font-weight: 700;
+    font-size: 2.5em;
+    text-align: center;
+}
+.paragraphe {
+    color: #303030;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.case:hover{
+    transform: scale(1.1);
+    box-shadow:0 5px 25px rgba(1, 1, 1, 50%) ;
+}
+
+.text {
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact-section {
+    width: 100%;
+    background: url(image/image.jpg); 
+    background-size: cover;
+}
+
+.contact-main {
+    display: flex;
+    margin: 60px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.contact-content {
+    width: 50%;
+}
+.contact-title {
+    font-size: 4em;
+    font-weight: 800;
+    padding-bottom: 50px;
+    color: #d6d6d0;
+}
+
+.contact-paragraphe {
+    display: flex;
+    padding-top: -100px;
+    font-size: 1.56em;
+    color: rgb(255, 255, 255);
+}
+
+.living {
+    width: 50%;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 350px;
+    
+}
+.living a {
+    font-size: 3em;
+    font-weight: 700;
+    color: bisque;
+}
+
+footer {
+    background-color: #000000;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    justify-content: space-between;
+    padding: 40px;
+  
+}
+
+
+.created {
+    color: rgb(255, 255, 255);
+    font-size: 0.7em;
+    font-weight: 100;
+}
+
+
+
+
